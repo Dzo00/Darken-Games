@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Games, Darken Games, Cheap, Trending Games"/>
+    <meta name="description" content="Welcome to the official website of Darken Games. Here you can find all the games we have to offer and read all the info you need. You will find the games here are so cheap they are almost as free !"/>
+    <meta name="author" content="Aleksa Jukic"/>
+    <link rel="icon" href="images/logo.ico"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.min.css"/>
+    <title>Darken Games | Homepage</title>
+</head>
+<body>
+
+    <!-- Navigacija -->
+    
+    <nav class="goHide">
+
+        <div class="left">
+            
+        </div>
+
+        <div class="right" id='right1'>
+            
+            
+        </div>
+
+    </nav>
+
+    <!-- Side navigacija -->
+
+    <div class="sideNav">
+
+        <div class="right" id='right2'>
+            <p>Navigation</p>
+        </div>
+
+        <div class="left">
+            
+        </div>
+
+    </div>
+
+    <!-- Triger za side navigaciju -->
+
+    <div class="activator">
+        <a href="#!"><i class="fas fa-bars"></i></a>
+    </div>
+
+    <!-- Back to top strelica -->
+
+    <div class="arrowTop">
+        <a href="#!">
+            <i class="fas fa-arrow-up goTop"></i>
+        </a>
+    </div>
+
+    <!-- Black Friday pop up blok -->
+
+    <div class="popUp">
+
+        <h3>BLACK FRIDAY SALE !</h3>
+        <p>Up to <span class='redBig'>80%</span> off on majority of games !</p>
+        <button class='closePop'>Awesome</button>
+
+    </div>
+
+    <!-- Main sekcija -->
+
+    <section class="main">
+
+        <div class="blackend">
+
+            <div class="content">
+
+                <h1 id="fillMeH1">Welcome to <span>Darken Games</span></h1>
+                <h2 id="fillmeH2"></h2>
+                <a href="#newGames"><i class="fas fa-gamepad"></i></a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Top 3 games sekcija -->
+
+    <section class='newGames container-fluid' id="newGames">
+
+        <h2 id="newGamesFill">Top <span>3</span> games this month !</h2>
+
+        <div class="bestGames row">
+
+        </div>
+
+    </section>
+
+
+    <!-- Kratko o Darken Games-u -->
+
+
+    <section class="described container-fluid">
+
+        <div class="container textISlika">
+            <div class="row rowDesc">
+
+                <div class="col-lg-6 colDesc1">
+
+                    <h3>Darken Games</h3>
+                    <p>Welcome to Darken Games, a home of all your favorite games. Ever wanted that 1 game but you just couldn't find it anywhere ? Well, your search comes to an end here, we have all trending and award wining games for you to come and try ! We can't wait to see you here !</p>
+                    <p>If you want to see what games we offer at the moment, click the button below :</p>
+                    <a href="games.html">Games</a>
+
+                </div>
+
+                <div class="col-lg-6 colDesc2">
+                    <img src="images/controller.jpg" class="imgPlay img-fluid" alt="Controller"/>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Black Friday Sale -->
+
+    
+    <section class="blackFriday described container-fluid">
+
+        <div class="container fridayContainer textISlika">
+
+            <div class="row rowFriday rowDesc">
+
+                <div class="col-lg-6 colFriday colDesc2">
+                    <img src="images/blackFriday.png" class="img-fluid blackFridayPic" alt="Black Friday Sale"/>
+                </div>
+
+                <div class="col-lg-6 colFriday1 colDesc1">
+
+                        <h3>Black Friday Sale !</h3>
+                        <p>On this black friday games are so cheap they are almost free ! Come on Black Friday and explore all the <span class='redBig'>games</span> that will go up to <span class='redBig'>80%</span> down ! You can't miss this !</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div class="slickCarousel">
+        <div class='carEl'>Absolutely fenomenal new games every month !</div>
+        <div class='carEl'>Left4Dead2 now in all of our stores !</div>
+        <div class='carEl'>Mortal Kombat 11 and Far Cry 5 on sale today !</div>
+        <div class='carEl'>Games ! Games ! Games !</div>
+      </div>
+
+
+    <!-- Iks oks sekcija -->
+
+
+    <section class="iksOks container-fluid">
+
+        <h3>Up for a game of <span>rock</span>, <span>paper</span>, <span>scissors</span> ?</h3>
+
+        <div class="container iksOksContainer">
+
+            <div class="row iksOksRow">
+
+                    <p id='midScore'><span id="player"></span> : <span id="ai"></span></p>
+
+                <div class="score">
+                    <p id='topScore'>You : <span id='youSign'></span></p>
+                    
+                    <p id='botScore'>Computer : <span id='aiSign'></span></p>
+                </div>
+
+                <p class='status'></p>
+
+            </div>
+
+            <div class="row iksOksRow1">
+
+                <div class="signs">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Kontakt sekcija -->
+
+
+    <section class="kontakt container-fluid" id="kontakt">
+
+        <h3>Ask us about games !</h3>
+
+        <div class="container kontaktContainer">
+
+            <div class="row rowKontakt">
+
+                <div class="col-lg-12 colKontakt">
+
+                    <form action="index.html" method="POST">
+
+                        <input type="text" placeholder="Your full name (required field)" name='fullName' class='polje painted' id="punoIme"/>
+
+                        <p id='fullNameError' class='greska'></p>
+
+                        <br/>
+
+                        <input type="email" placeholder="Your e-mail (required field)" name='mail' class='polje painted' id="imeMejla"/>
+
+                        <p id='mailError' class='greska'></p>
+
+                        <br/>
+
+                        <select name="games" id="selectGames">
+
+                            <option value="0">Game type</option>
+
+                            <option value="action">Action</option>
+
+                            <option value="action">Fighting</option>
+
+                            <option value="action">Strategy</option>
+
+                        </select>
+
+                        <p id='selectError' class='greska'></p>
+
+                        <br/>
+
+                        <div class="checks">
+                            
+                        </div>
+
+                        <p id='checkedError' class='greska'></p>
+
+                        <br/>
+
+                        <textarea name="area" id="area" placeholder="Message to us (required field)" cols="30" rows="10" class='painted'></textarea>
+
+                        <p id='areaError' class='greska'></p>
+
+                        <br/>
+
+                        <div class="sloziSe">
+
+                            <input type="checkbox" value='agree' name='agree' id='agree'/>
+                            <label for="agree" id='agreeLabel'>I agree with <a href="#!">terms</a> and <a href="#!">conditions.</a></label>
+
+                        </div>
+
+                        <p id='agreeError' class='greska'></p>
+
+                        <br/>
+
+                        <input type="submit" id='dugme' name='dugme' value="Send"/>
+
+                        <p id='uspeh'></p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <section class="footer container-fluid">
+
+        <div class="container footerContainer">
+
+            <div class="row rowFooter">
+
+                <div class="col-lg-4 colFooter1">
+
+                        <div class="left">
+            
+                        </div>
+
+                </div>
+
+                <div class="col-lg-4 copy">
+
+                    <p>&copy; Copyright Darken Games 2019.<br/>All rights reserved.</p>
+
+                </div>
+
+                <div class="col-lg-4 colFooter2">
+
+                    <p>Navigation</p>
+
+                        <div class="right" id='right3'>
+            
+                        </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-12 usefulLinks">
+                    
+                <a href="sitemap.xml" target="_blank">Sitemap</a>
+
+                <a href="css/style.scss" target="_blank">SASS</a>
+
+                <a href="css/style.css" target="_blank">CSS</a>
+
+                <a href="js/animacijeIndex.js" target="_blank">jQuery</a>
+
+                <a href="js/formCheck.js" target="_blank">Forma.js</a>
+
+                <a href="js/mainIndex.js" target="_blank">Main.js</a>
+
+            </div>
+
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Moji js failovi -->
+
+    <script src="js/mainIndex.min.js" type="text/javascript"></script>
+    <script src="js/animacijeIndex.min.js"></script>
+    <script src='js/formCheck.min.js' type='text/javascript'></script>
+    <script src='js/slick.min.js'></script>
+</body>
+</html>
