@@ -93,7 +93,7 @@ function menjanjeNaslovaITeksta() {
 
 function bestGamesIspisivanje() {
 
-    var top3Games = [['skyrim.jpg','The Elder Scrolls V : Skyrim','skyrim.html'],['mortalKombat.png','Mortal Kombat X','mortalKombat.html'],['mario.jpg','Super Mario Run','mario.html']];
+    var top3Games = [['skyrim.jpg','The Elder Scrolls V : Skyrim','skyrim.html'],['mortalKombat.jpg','Mortal Kombat X','mortalKombat.html'],['mario.jpg','Super Mario Run','mario.html']];
 
     
     for(var i = 0 ; i < top3Games.length ; i++) {
