@@ -65,7 +65,7 @@ function navigation() {
 
 function ispisPrve4Igre() {
 
-    var prve4Igre = [['cod.jpg','Call Of Duty : Black Ops 3'], ['fortnite.png','Fortnite'], ['minecraft.jpg','Minecraft'], ['pubg.jpg','PUBG']];
+    var prve4Igre = [['cod.jpg','Call Of Duty : Black Ops 3'], ['fortnite.jpg','Fortnite'], ['minecraft.jpg','Minecraft'], ['pubg.jpg','PUBG']];
 
     for(var i = 0 ; i < prve4Igre.length ; i++) {
 
@@ -88,7 +88,7 @@ function ispis2Igre() {
 
     }
 
-    var raspoloziveIgre = [['swb2.jpg', 'Star Wars Battlefront 2', 'residentEvil2.jpg', 'Resident Evil 2'], ['borderlands.jpg', 'Borderlands 3', 'portal2.jpg', 'Portal'], ['farcry4.jpg', 'Far Cry 4', 'needForSpeed.png', 'Need For Speed']];
+    var raspoloziveIgre = [['swb2.jpg', 'Star Wars Battlefront 2', 'residentEvil2.jpg', 'Resident Evil 2'], ['borderlands.jpg', 'Borderlands 3', 'portal2.jpg', 'Portal'], ['farcry4.jpg', 'Far Cry 4', 'needForSpeed.jpg', 'Need For Speed']];
 
     document.querySelector('.gamesSpecial').innerHTML += `<div class='bestGames gamesBestGames'>
     <div class="topGame">
